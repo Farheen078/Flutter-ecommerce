@@ -89,3 +89,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+dependencies:
+  cached_network_image: ^3.4.0
+  shimmer: ^2.0.0
+  flutter_staggered_animations: ^1.1.0
