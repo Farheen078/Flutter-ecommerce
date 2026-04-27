@@ -1,16 +1,29 @@
-# my_app
+# 🛒 Flutter eCommerce App 
 
-A new Flutter project.
+This is a simple **eCommerce mobile application UI** built using **Flutter (Dart)**.  
+It focuses on basic shopping features like **product listing, cart management, and wishlist functionality** using Provider for state management.
 
-## Getting Started
+> ⚠️ Note: This project is frontend-only and does not include backend, authentication, or payment integration.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🛍️ Product listing UI
+- ❤️ Wishlist functionality
+- 🛒 Add to Cart feature
+- 🧾 Cart management (add/remove items)
+- 🔄 State management using Provider
+- 🎨 Clean and simple UI theme
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🧠 State Management
+
+This project uses **Provider** for managing app state:
+
+- `product_provider.dart` → Handles product data
+- `cart_provider.dart` → Manages cart operations
+- `order_provider.dart` → Handles order logic (basic structure)
+
+---
